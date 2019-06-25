@@ -16,3 +16,14 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+npm install --save-dev @babel/preset-stage-2
+.babelrc
+
+{
+  "presets": [
+    ["es2015", { "modules": false }],
+    ["stage-2"]
+  ]
+}
+
